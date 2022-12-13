@@ -9,6 +9,7 @@ vim.opt.culopt = "both"
 vim.opt.list = true
 
 require('plugins')
+require('nvim-web-devicons').setup()
 require('lualine').setup{
   options = {
     theme = 'gruvbox'
