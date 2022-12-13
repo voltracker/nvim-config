@@ -4,7 +4,7 @@ my current config for neovim, currently using a gruvbox colorscheme and treesitt
 
 # to use
 
-install ![packer.nvim](https://github.com/wbthomason/packer.nvim) by running:
+install [packer.nvim](https://github.com/wbthomason/packer.nvim) by running:
 
 ```bash
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
