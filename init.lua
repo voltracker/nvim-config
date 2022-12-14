@@ -15,7 +15,9 @@ require('lualine').setup{
     theme = 'gruvbox'
   }
 }
---require('lspconfig').setup{}
+require('lspconfig').pyright.setup{}
+require('lspconfig').clangd.setup{}
+require('lspconfig').gopls.setup{}
 require('nvim-treesitter.configs').setup {
   ensure_installed = "all",
   sync_install = false,
