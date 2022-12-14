@@ -16,6 +16,7 @@ require('lualine').setup{
   }
 }
 require('lspconfig').pyright.setup{}
+require('lspconfig').rust_analyzer.setup{}
 require('lspconfig').clangd.setup{}
 require('lspconfig').gopls.setup{}
 require('nvim-treesitter.configs').setup {
