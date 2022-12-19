@@ -1,5 +1,6 @@
-require('voltracker.plugins')
 require('voltracker.set')
+require('voltracker.plugins')
+require('voltracker.remap')
 require('nvim-web-devicons').setup()
 require'alpha'.setup(require'alpha.themes.startify'.config)
 require('lualine').setup{

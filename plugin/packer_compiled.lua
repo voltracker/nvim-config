@@ -74,6 +74,16 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["alpha-nvim"] = {
+    loaded = true,
+    path = "/Users/matthew/.local/share/nvim/site/pack/packer/start/alpha-nvim",
+    url = "https://github.com/goolord/alpha-nvim"
+  },
+  catppuccin = {
+    loaded = true,
+    path = "/Users/matthew/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/matthew/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -93,6 +103,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/matthew/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
+  ["packer.nvim"] = {
+    loaded = true,
+    path = "/Users/matthew/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    url = "https://github.com/wbthomason/packer.nvim"
   }
 }
 

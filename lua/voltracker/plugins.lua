@@ -1,7 +1,7 @@
 vim.cmd.packadd('packer.nvim')
 
 --- startup and add configure plugins
-return require('packer')..startup(function(use)
+return require('packer').startup(function(use)
   -- add plugins below
   use 'wbthomason/packer.nvim'
   use {
