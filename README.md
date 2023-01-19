@@ -1,6 +1,6 @@
 # neovim dotfiles/configs
 
-my current config for neovim, currently using a gruvbox colorscheme and treesitter for some funky syntax highlighting
+my current config for neovim, currently using a catppuccin colorscheme and treesitter for some funky syntax highlighting
 
 # to use
 
@@ -14,3 +14,11 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 copy all config files to `~/.config/nvim/`
 
 open `nvim` and run the command `:PackerInstall`
+
+# Packages
+
+- Packer
+- lsp-zero
+- lualine
+- telescope
+- treesitter
